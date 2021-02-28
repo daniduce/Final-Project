@@ -1,6 +1,19 @@
 Final Project Notes
 
+Description:
+
+Topic:  Hurricane Analysis
+
 Data:  NOAA Hurricane tracks since 1980
 
 File format:  .csv
+
+
+Machine Learning Model
+
+
+Database Integration
+
+
+
 
