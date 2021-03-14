@@ -1,9 +1,0 @@
-CREATE TABLE Target_Data (
-id SERIAL,
-INDEX VARCHAR (7),
-LON VARCHAR (25),
-LAT VARCHAR (25),
-geohash VARCHAR (10),
-PRIMARY KEY (id),
-FOREIGN KEY (id) REFERENCES na_storm_data (id)
-)
