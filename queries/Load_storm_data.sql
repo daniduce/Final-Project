@@ -1,4 +1,0 @@
-COPY na_storm_data(INDEX, SID, SEASON_YEAR, NUMBER, BASIN, NAME, ISO_TIME, NATURE, LAT, LON, WMO_WIND_KTS, WMO_PRES, STORM_SPEED_KTS, STORM_DIR_DEGREES, geohash)
-FROM 'c:\users\jbate\Data_Science\Final-Project\NA_Storm_Data.csv'
-DELIMITER ','
-CSV HEADER;
