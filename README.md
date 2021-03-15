@@ -66,6 +66,6 @@ In the final visual representation, we find the nature of the storm and how it m
 
 ### Visuals to Support Data Analysis
 
-Link to Tableau that include visuals to support our analysis. 
+Link to Tableau that include visuals above to support our analysis. 
 
 https://public.tableau.com/profile/danielle.duce#!/vizhome/Final_Project_Visuals_16157669818190/StormSpeeds?publish=yes
