@@ -42,6 +42,8 @@ Last, we created the final table for “NA_Storms_Summary”. This table will ha
 
 <img width="473" alt="Screen Shot 2021-03-14 at 8 49 32 PM" src="https://user-images.githubusercontent.com/71396367/111090624-c9fc8680-8506-11eb-9d42-cdef8c766d0b.png">
 
+The NA_Storms_Summary table was linked back to Pandas and modified to change the storm strike values from 1, 0 to yes, no.  The summary table was then exported to a csv file to be used for further analysis and visualizations.
+
 Next we move in to the Analysis Phase of the project. 
 
 ## Analysis Phase
