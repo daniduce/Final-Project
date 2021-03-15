@@ -46,9 +46,23 @@ Next we move in to the Analysis Phase of the project.
 
 ## Analysis Phase
 
+In the analysis phase, we created 4 different visualizations using Tableau. 
 
+The first visual represents storm strikes based on the speed of the storm. 
 
-Analyzing the data with visualization
+<img width="1429" alt="Storm Speeds:Strikes" src="https://user-images.githubusercontent.com/71396367/111091013-0086d100-8508-11eb-8f2a-5f819130521d.png">
+
+Our second visualization, looks at how many storms there were as an entirety between 1980 and 2020, and how many of the those in total hit the state of Florida. 
+
+<img width="1431" alt="FL vs Non-FL Strike" src="https://user-images.githubusercontent.com/71396367/111091060-24e2ad80-8508-11eb-98dd-27363f1ee3f8.png">
+
+Taking a look at the third visusalization, this one tells the story of what month during the year strikes are most likely to occur. 
+
+<img width="1430" alt="Majority of Strikes" src="https://user-images.githubusercontent.com/71396367/111091110-4d6aa780-8508-11eb-81d4-d3241e35a438.png">
+
+In the final visual representation, we find the nature of the storm and how it may have impacted Florida given the storm strike. 
+
+<img width="1431" alt="Nature of Storms" src="https://user-images.githubusercontent.com/71396367/111091181-78ed9200-8508-11eb-80a9-c406bb4c9690.png">
 
 ### Visuals to Support Data Analysis
 
