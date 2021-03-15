@@ -73,4 +73,4 @@ Link to Tableau that include visuals above to support our analysis.
 https://public.tableau.com/profile/danielle.duce#!/vizhome/Final_Project_Visuals_16157669818190/StormSpeeds?publish=yes
 
 ### Link to Google Slide
-https://docs.google.com/presentation/d/1NRwVGG2yReRMv8M2F8JdpbUijwd-IhbOcqOz93g4BC4/edit#slide=id.gc78378ac2d_0_19
+https://docs.google.com/presentation/d/1NRwVGG2yReRMv8M2F8JdpbUijwd-IhbOcqOz93g4BC4/edit?usp=sharing
