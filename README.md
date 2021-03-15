@@ -20,6 +20,12 @@ Our main question we hope to answer is: What is the probability that a hurricane
 
 * All group discussions will end with an "action plan" or key takaways. A recap will be posted to our slack channel as a resource. After an action plan is set in motion, get started right away to ensure other members are not waiting for your part and all work is submitted on time.
 
+## Exploration Phase
+
+## Analysis Phase
+
+Analyzing the data with visualization
+
 ### Visuals to Support Data Analysis
 
 Link to Tableau that include visuals to support our analysis. 
