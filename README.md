@@ -22,7 +22,31 @@ Our main question we hope to answer is: What is the probability that a hurricane
 
 ## Exploration Phase
 
+In the exploartion phase we imported tables from Pandas. Gathering the information, we used the North American Storm Data to create the NA_Storms CSV. Once these were in the database, we created the table fl_storms with the following query.  The table contains storms where geohash values from NA_Storms equal the Target geohash values indicating a storm strike.
+
+<img width="473" alt="Screen Shot 2021-03-14 at 8 44 02 PM" src="https://user-images.githubusercontent.com/71396367/111090440-185d5580-8506-11eb-8f9b-d0f6dc7205d4.png">
+
+Then we modified the NA_storms table with the following code to create the "Strike Target" column to indicate storms that hit the target area. 
+
+<img width="473" alt="Screen Shot 2021-03-14 at 8 45 55 PM" src="https://user-images.githubusercontent.com/71396367/111090488-493d8a80-8506-11eb-92c0-91e97cce71c3.png">
+
+Then we set the value of “Strike_Target” to 1 if it exists in “fl_storms” table.  Note, a 1 in the Strike_Target column indicates a storm strike in the target area.
+
+<img width="472" alt="Screen Shot 2021-03-14 at 8 47 12 PM" src="https://user-images.githubusercontent.com/71396367/111090543-768a3880-8506-11eb-89c2-226b3cf25ff1.png">
+
+After, we created another table “origin_end_time” to get the start and end timestamps for storms.
+
+<img width="474" alt="Screen Shot 2021-03-14 at 8 48 15 PM" src="https://user-images.githubusercontent.com/71396367/111090579-9c174200-8506-11eb-9d64-e975cf0b8bb0.png">
+
+Last, we created the final table for “NA_Storms_Summary”. This table will have 1 row for each storm, the ISO_TIME is the origin time of the storm, and the coordinates and geohash values are also from the origin of the storm.
+
+<img width="473" alt="Screen Shot 2021-03-14 at 8 49 32 PM" src="https://user-images.githubusercontent.com/71396367/111090624-c9fc8680-8506-11eb-9d42-cdef8c766d0b.png">
+
+Next we move in to the Analysis Phase of the project. 
+
 ## Analysis Phase
+
+
 
 Analyzing the data with visualization
 
