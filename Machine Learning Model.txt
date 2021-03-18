@@ -1,0 +1,7 @@
+###Machine Learning Model
+
+The goal of our machine learning model is to predict the probability that a named storm will reach landfall within a 50 mile radius area in Eastern US states within a single storm season.  We will use Geohash in Pandas to divide the map area into 50 mile segments.  From there we will use the historical data from our dataframe to predict the probability of a storm strike in each of our defined segments.
+
+To make our predictions we first update our dataframe with our geographic segment data to determine the number of historical strikes within each segment.  Then we will use the Sklearn linear regression model to predict the probability of a strike in each segment during a given storm season.  We will use the lbfgs algorithm as our learning optimizer.  We will split our data into training and test sets and train the model with the model.fit function.  Finally we will use the model.predict function to predict the storm strikes and validate the model with the accuracy score function. 
+
+

@@ -24,3 +24,67 @@ Our main question we hope to answer is: What is the probability that a hurricane
 
 
 
+
+
+## Exploration Phase
+
+In the exploartion phase we imported tables from Pandas. Gathering the information, we used the North American Storm Data to create the NA_Storms CSV. Once these were in the database, we created the table fl_storms with the following query.  The table contains storms where geohash values from NA_Storms equal the Target geohash values indicating a storm strike.
+
+<img width="473" alt="Screen Shot 2021-03-14 at 8 44 02 PM" src="https://user-images.githubusercontent.com/71396367/111090440-185d5580-8506-11eb-8f9b-d0f6dc7205d4.png">
+
+Then we modified the NA_storms table with the following code to create the "Strike Target" column to indicate storms that hit the target area. 
+
+<img width="473" alt="Screen Shot 2021-03-14 at 8 45 55 PM" src="https://user-images.githubusercontent.com/71396367/111090488-493d8a80-8506-11eb-92c0-91e97cce71c3.png">
+
+Then we set the value of “Strike_Target” to 1 if it exists in “fl_storms” table.  Note, a 1 in the Strike_Target column indicates a storm strike in the target area.
+
+<img width="472" alt="Screen Shot 2021-03-14 at 8 47 12 PM" src="https://user-images.githubusercontent.com/71396367/111090543-768a3880-8506-11eb-89c2-226b3cf25ff1.png">
+
+After, we created another table “origin_end_time” to get the start and end timestamps for storms.
+
+<img width="474" alt="Screen Shot 2021-03-14 at 8 48 15 PM" src="https://user-images.githubusercontent.com/71396367/111090579-9c174200-8506-11eb-9d64-e975cf0b8bb0.png">
+
+Last, we created the final table for “NA_Storms_Summary”. This table will have 1 row for each storm, the ISO_TIME is the origin time of the storm, and the coordinates and geohash values are also from the origin of the storm.
+
+<img width="473" alt="Screen Shot 2021-03-14 at 8 49 32 PM" src="https://user-images.githubusercontent.com/71396367/111090624-c9fc8680-8506-11eb-9d42-cdef8c766d0b.png">
+
+The NA_Storms_Summary table was linked back to Pandas and modified to change the storm strike values from 1, 0 to yes, no.  The summary table was then exported to a csv file to be used for further analysis and visualizations.
+
+Next we move in to the Analysis Phase of the project. 
+
+## Analysis Phase
+
+In the analysis phase, we created 4 different visualizations using Tableau. 
+
+The first visual represents storm strikes based on the speed of the storm. 
+
+<img width="1429" alt="Storm Speeds:Strikes" src="https://user-images.githubusercontent.com/71396367/111091013-0086d100-8508-11eb-8f2a-5f819130521d.png">
+
+Our second visualization, looks at how many storms there were as an entirety between 1980 and 2020, and how many of the those in total hit the state of Florida. 
+
+<img width="1431" alt="FL vs Non-FL Strike" src="https://user-images.githubusercontent.com/71396367/111091060-24e2ad80-8508-11eb-98dd-27363f1ee3f8.png">
+
+Taking a look at the third visusalization, this one tells the story of what month during the year strikes are most likely to occur. 
+
+<img width="1430" alt="Majority of Strikes" src="https://user-images.githubusercontent.com/71396367/111091110-4d6aa780-8508-11eb-81d4-d3241e35a438.png">
+
+In the final visual representation, we find the nature of the storm and how it may have impacted Florida given the storm strike. 
+
+<img width="1431" alt="Nature of Storms" src="https://user-images.githubusercontent.com/71396367/111091181-78ed9200-8508-11eb-80a9-c406bb4c9690.png">
+
+### Visuals to Support Data Analysis
+
+Link to Tableau that include visuals above to support our analysis. 
+
+https://public.tableau.com/profile/danielle.duce#!/vizhome/Final_Project_Visuals_16157669818190/StormSpeeds?publish=yes
+
+### Machine Learning
+
+We began our machine learning analysis by importing our na_storms_summary.csv file into a Pandas dataframe using the mlenv kernel.  For this analysis we used the logistic regression model from sklearn.  We imported the sklearn label encoder to transform our string values to numeric values.  We used the "Strike_Target" column as the determiner of outcome.  We used train test split from sklearn to divide our data into training and testing groups.  Then we ran the logistic regression classifier for 500 iterations.  The regression analysis produced an accuracy score of 63.6%.  
+
+After the first regression analysis we dropped the "NAME" and "NATURE" columns and our accuracy score improved to 65.9%  We were not able to further improve the accuracy score by dropping additional columns.
+
+
+### Link to Google Slide
+https://docs.google.com/presentation/d/1NRwVGG2yReRMv8M2F8JdpbUijwd-IhbOcqOz93g4BC4/edit?usp=sharing
+
