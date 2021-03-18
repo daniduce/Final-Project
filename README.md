@@ -20,6 +20,12 @@ Our main question we hope to answer is: What is the probability that a hurricane
 
 * All group discussions will end with an "action plan" or key takaways. A recap will be posted to our slack channel as a resource. After an action plan is set in motion, get started right away to ensure other members are not waiting for your part and all work is submitted on time.
 
+
+
+
+
+
+
 ## Exploration Phase
 
 In the exploartion phase we imported tables from Pandas. Gathering the information, we used the North American Storm Data to create the NA_Storms CSV. Once these were in the database, we created the table fl_storms with the following query.  The table contains storms where geohash values from NA_Storms equal the Target geohash values indicating a storm strike.
@@ -81,3 +87,4 @@ After the first regression analysis we dropped the "NAME" and "NATURE" columns a
 
 ### Link to Google Slide
 https://docs.google.com/presentation/d/1NRwVGG2yReRMv8M2F8JdpbUijwd-IhbOcqOz93g4BC4/edit?usp=sharing
+
