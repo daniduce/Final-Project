@@ -72,11 +72,11 @@ In the final visual representation, we find the nature of the storm and how it m
 
 <img width="1431" alt="Nature of Storms" src="https://user-images.githubusercontent.com/71396367/111091181-78ed9200-8508-11eb-80a9-c406bb4c9690.png">
 
-### Visuals to Support Data Analysis
+### Dashboard and Visuals to Support Data Analysis
 
-Link to Tableau that include visuals above to support our analysis. 
+Link to Tableau Dashboard that include visuals above to support our analysis.
 
-https://public.tableau.com/profile/danielle.duce#!/vizhome/Final_Project_Visuals_16157669818190/StormSpeeds?publish=yes
+https://public.tableau.com/profile/danielle.duce#!/vizhome/Storm_Strike_Dashboard/StormStrikeDashboard?publish=yes
 
 ### Machine Learning
 
