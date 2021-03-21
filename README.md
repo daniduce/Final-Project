@@ -56,23 +56,29 @@ Next we move in to the Analysis Phase of the project.
 
 In the analysis phase, we created 4 different visualizations using Tableau. 
 
-The first visual represents storm strikes based on the speed of the storm. 
+The first visual represents which storms struck florida and with the highest speed knots. 
 
-<img width="1429" alt="Storm Speeds:Strikes" src="https://user-images.githubusercontent.com/71396367/111091013-0086d100-8508-11eb-8f2a-5f819130521d.png">
+<img width="922" alt="Screen Shot 2021-03-21 at 3 04 10 PM" src="https://user-images.githubusercontent.com/71396367/111917500-b39a8180-8a56-11eb-8c9c-bd227d726191.png">
 
-Our second visualization, looks at how many storms there were as an entirety between 1980 and 2020, and how many of the those in total hit the state of Florida. 
+For the second visualazation, we look at the end latitude and longitudes of the storms based on a strike or not. 
 
-<img width="1431" alt="FL vs Non-FL Strike" src="https://user-images.githubusercontent.com/71396367/111091060-24e2ad80-8508-11eb-98dd-27363f1ee3f8.png">
+<img width="921" alt="Screen Shot 2021-03-21 at 3 06 11 PM" src="https://user-images.githubusercontent.com/71396367/111917561-fc523a80-8a56-11eb-8575-ab55c8501220.png">
 
-Taking a look at the third visusalization, this one tells the story of what month during the year strikes are most likely to occur. 
+Our third visualization, looks at how many storms there were as an entirety between 1980 and 2020, and how many of the those in total hit the state of Florida. 
 
-<img width="1430" alt="Majority of Strikes" src="https://user-images.githubusercontent.com/71396367/111091110-4d6aa780-8508-11eb-81d4-d3241e35a438.png">
+<img width="942" alt="Screen Shot 2021-03-21 at 3 07 44 PM" src="https://user-images.githubusercontent.com/71396367/111917597-34f21400-8a57-11eb-8953-d8aa171310ce.png">
+
+With the fourth visualization, this one tells the story of what month during the year strikes are most likely to occur. 
+
+<img width="943" alt="Screen Shot 2021-03-21 at 3 10 17 PM" src="https://user-images.githubusercontent.com/71396367/111917639-90240680-8a57-11eb-8926-93bc2e4568cd.png">
 
 In the final visual representation, we find the nature of the storm and how it may have impacted Florida given the storm strike. 
 
-<img width="1431" alt="Nature of Storms" src="https://user-images.githubusercontent.com/71396367/111091181-78ed9200-8508-11eb-80a9-c406bb4c9690.png">
+<img width="942" alt="Screen Shot 2021-03-21 at 3 10 57 PM" src="https://user-images.githubusercontent.com/71396367/111917660-a7fb8a80-8a57-11eb-9361-e384bfb073c2.png">
 
 ### Dashboard and Visuals to Support Data Analysis
+
+<img width="1143" alt="Screen Shot 2021-03-21 at 3 12 12 PM" src="https://user-images.githubusercontent.com/71396367/111917702-d4170b80-8a57-11eb-950b-8443a4feb045.png">
 
 Link to Tableau Dashboard that include visuals above to support our analysis.
 
