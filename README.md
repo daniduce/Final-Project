@@ -108,7 +108,9 @@ Logistic regression model
 We have an accuracy of 70percent 
 ![model](https://user-images.githubusercontent.com/69021009/111925989-5a941300-8a81-11eb-9fa9-3c212c36e359.png)
 
-Confusion Matrix : This helps with our performance analysis 
+Test Accuracy of the result
+We will create confusion matrxix to check accuarcy of our classification of storm target. We will use confusion_matrix function of the sklearn library.After importing the function, we will call it using a new variable cm. The function accepts two parameters, mainly the actual values and predicted values
+
 ![confusion_matrix](https://user-images.githubusercontent.com/69021009/111926232-66340980-8a82-11eb-9f56-3e12d53c0dce.png)
 
 
