@@ -61,7 +61,7 @@ In the final visual representation, we find the nature of the storm and how it m
 
 ### Dashboard and Visuals to Support Data Analysis
 
-<img width="1143" alt="Screen Shot 2021-03-21 at 3 12 12 PM" src="https://user-images.githubusercontent.com/71396367/111917702-d4170b80-8a57-11eb-950b-8443a4feb045.png">
+<img width="1256" alt="Screen Shot 2021-03-21 at 9 41 46 PM" src="https://user-images.githubusercontent.com/71396367/111929982-40146680-8a8e-11eb-95c5-adb87a01ed31.png">
 
 Link to Tableau Dashboard that include visuals above to support our analysis.
 
