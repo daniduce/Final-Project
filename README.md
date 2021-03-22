@@ -100,15 +100,19 @@ Correlation Analysis
 
 ![correlation](https://user-images.githubusercontent.com/69021009/111926199-3edd3c80-8a82-11eb-991e-10cbe1e68912.png)
 
-Data Scaling. This is to ensure that our data are converted to same scale. Helps to ensure or avoid any skew information
+**Feature Scaling
+
+In logistic regression, we have to do feature scaling because we want accurate result of predictions. We will only scale the independent variable because our dependent variable have only 0 and 1 values. 
 
 ![scale](https://user-images.githubusercontent.com/69021009/111926174-20774100-8a82-11eb-8b9f-126d9fda8019.png)
 
-Logistic regression model 
+**Logistic regression model 
+
 We have an accuracy of 70percent 
 ![model](https://user-images.githubusercontent.com/69021009/111925989-5a941300-8a81-11eb-9fa9-3c212c36e359.png)
 
-Test Accuracy of the result
+**Test Accuracy of the result
+
 We will create confusion matrxix to check accuarcy of our classification of storm target. We will use confusion_matrix function of the sklearn library.After importing the function, we will call it using a new variable cm. The function accepts two parameters, mainly the actual values and predicted values
 
 ![confusion_matrix](https://user-images.githubusercontent.com/69021009/111926232-66340980-8a82-11eb-9f56-3e12d53c0dce.png)
