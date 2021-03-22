@@ -76,25 +76,32 @@ After the first regression analysis we dropped the "NAME" and "NATURE" columns a
 #### Steps in developing the model 
 
 Import data set and use pandas info to view nature of the data
+
 ![dataInfo](https://user-images.githubusercontent.com/69021009/111926095-d8581e80-8a81-11eb-875f-326c34c6856a.png)
 
 Convert Date field 
-![dataInfo](https://user-images.githubusercontent.com/69021009/111926106-e9089480-8a81-11eb-9f3e-fd28d75df57d.png)
+
+![date_convert](https://user-images.githubusercontent.com/69021009/111926280-99769880-8a82-11eb-968d-2be392a5924b.png)
 
 
 Split our data into train test. This step is necessary for performance. Data is split to train model well
+
 ![split_train](https://user-images.githubusercontent.com/69021009/111926005-75ff1e00-8a81-11eb-8354-15a76776069f.png)
 
 Exploratory Data Analysis is also done. This will better helps to understand our data. Very first was to check percentage of strike versus non-strike
+
 ![strike](https://user-images.githubusercontent.com/69021009/111926153-12292500-8a82-11eb-842e-c9b6c2a86b67.png)
 
 Analysis of Storm over the Years
+
 ![storm](https://user-images.githubusercontent.com/69021009/111926189-31c04d80-8a82-11eb-89f2-1bcb9f53e13b.png)
 
 Correlation Analysis 
+
 ![correlation](https://user-images.githubusercontent.com/69021009/111926199-3edd3c80-8a82-11eb-991e-10cbe1e68912.png)
 
-Data Scaling 
+Data Scaling. This is to ensure that our data are converted to same scale. Helps to ensure or avoid any skew information
+
 ![scale](https://user-images.githubusercontent.com/69021009/111926174-20774100-8a82-11eb-8b9f-126d9fda8019.png)
 
 Logistic regression model 
