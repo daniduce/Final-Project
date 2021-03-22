@@ -69,9 +69,9 @@ https://public.tableau.com/profile/danielle.duce#!/vizhome/Storm_Strike_Dashboar
 
 ### Machine Learning
 
-We began our machine learning analysis by importing our na_storms_summary.csv file into a Pandas dataframe using the mlenv kernel.  For this analysis we used the logistic regression model from sklearn.  We imported the sklearn label encoder to transform our string values to numeric values.  We used the "Strike_Target" column as the determiner of outcome.  We used train test split from sklearn to divide our data into training and testing groups.  Then we ran the logistic regression classifier for 500 iterations.  The regression analysis produced an accuracy score of 63.6%.  
+We began our machine learning analysis by importing our na_storms_summary.csv file into a Pandas dataframe using the mlenv kernel.  For this analysis we used the logistic regression model from sklearn.  We imported the sklearn label encoder to transform our string values to numeric values.  We used the "Strike_Target" column as the determiner of outcome.  We used train test split from sklearn to divide our data into training and testing groups.  Then we ran the logistic regression classifier for 500 iterations.  The regression analysis produced an accuracy score of 70%.  
 
-After the first regression analysis we dropped the "NAME" and "NATURE" columns and our accuracy score improved to 65.9%  We were not able to further improve the accuracy score by dropping additional columns.
+After the first regression analysis we dropped the "NAME" and "NATURE" columns and our accuracy score improved   We were not able to further improve the accuracy score by dropping additional columns.
 
 #### Steps in developing the model 
 
