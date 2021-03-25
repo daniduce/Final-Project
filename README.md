@@ -88,7 +88,7 @@ Split our data into train test. This step is necessary for performance. Data is 
 
 ![split_train](https://user-images.githubusercontent.com/69021009/111926005-75ff1e00-8a81-11eb-8354-15a76776069f.png)
 
-Exploratory Data Analysis is also done. This will better helps to understand our data. Very first was to check percentage of strike versus non-strike
+Exploratory Data Analysis is also done. This will better help to understand our data. Very first thing is to check percentage of strike versus non-strike
 
 ![strike](https://user-images.githubusercontent.com/69021009/111926153-12292500-8a82-11eb-842e-c9b6c2a86b67.png)
 
