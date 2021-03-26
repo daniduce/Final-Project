@@ -39,14 +39,13 @@ Next we move in to the Analysis Phase of the project.
 
 In the analysis phase, we created 4 different visualizations using Tableau. 
 
-The first visual represents which storms struck florida and with the highest speed knots. 
+The first visual represents the starting origin of the storms based on strike or not. 
 
-<img width="922" alt="Screen Shot 2021-03-21 at 3 04 10 PM" src="https://user-images.githubusercontent.com/71396367/111917500-b39a8180-8a56-11eb-8c9c-bd227d726191.png">
+<img width="1387" alt="Screen Shot 2021-03-25 at 8 39 52 PM" src="https://user-images.githubusercontent.com/71396367/112560778-436b6300-8daa-11eb-8a14-62368edc1e96.png">
 
 For the second visualazation, we look at the end latitude and longitudes of the storms based on a strike or not. 
 
-<img width="921" alt="Screen Shot 2021-03-21 at 3 06 11 PM" src="https://user-images.githubusercontent.com/71396367/111917561-fc523a80-8a56-11eb-8575-ab55c8501220.png">
-
+<img width="1345" alt="Screen Shot 2021-03-25 at 8 40 39 PM" src="https://user-images.githubusercontent.com/71396367/112560833-5e3dd780-8daa-11eb-9a41-fc57c4e05684.png">
 Our third visualization, looks at how many storms there were as an entirety between 1980 and 2020, and how many of the those in total hit the state of Florida. 
 
 <img width="942" alt="Screen Shot 2021-03-21 at 3 07 44 PM" src="https://user-images.githubusercontent.com/71396367/111917597-34f21400-8a57-11eb-8953-d8aa171310ce.png">
