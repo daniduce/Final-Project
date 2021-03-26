@@ -65,7 +65,7 @@ In the final visual representation, we find the nature of the storm and how it m
 
 Link to Tableau Dashboard that include visuals above to support our analysis.
 
-https://public.tableau.com/profile/danielle.duce#!/vizhome/Storm_Strike_Dashboard/StormStrikeDashboard?publish=yes
+https://public.tableau.com/profile/danielle.duce#!/vizhome/Storm_Strike_Dashboard/StormStrikeDashboard
 
 ### Machine Learning
 
