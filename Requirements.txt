@@ -1,0 +1,22 @@
+Final Project
+
+Installed packages in Python Data
+
+
+GEO pip install geo
+
+Geohasher  pip install polygon-geohasher
+Note:   Error with install had to install Microsoft build tools for visual c++
+        Installed MS VS build tools to update C++ instance
+
+Pip install seaborn 
+
+conda install contextily --channel conda-forge
+
+conda install rasterio=1.0.13=py37h6bd7d87_0 (to fix dll error in windows)
+
+pip install polygeohasher
+
+pip install Descartes  (to get geojson mapping to work)
+
+conda install -c conda-forge geopandas (to fix broken geopandas)
